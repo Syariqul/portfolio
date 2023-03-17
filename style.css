@@ -427,6 +427,7 @@ nav .nav-container ul li a.nav-active{
 .experience-container{
     display: grid;
     grid-template-columns: 41rem 41rem;
+    padding-top: 2rem;
     /* gap: 1rem; */
 }
 .about-container p{
@@ -437,11 +438,14 @@ nav .nav-container ul li a.nav-active{
     font-style: bold !important;
     padding-bottom: 1rem;
 }
-.icon-exp{
-    display:flex;
+.exp-des{
+    display: grid;
+    grid-template-columns: 10% 90%;
 }
-.time{
-    display: absolute;
+.icon-exp{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
 }
 .read-more{
     display: none;
