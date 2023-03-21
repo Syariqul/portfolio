@@ -329,7 +329,11 @@ nav .nav-container ul li a.nav-active{
 .skill{
     margin-bottom: 1rem;
 }
-.skill-title{
+.item h5{
+    font-size: 17px;
+    font-style: italic;
+}
+/* .skill-title{
     display: flex;
     justify-content: space-between;
     background: var(--color-primary);
@@ -337,16 +341,16 @@ nav .nav-container ul li a.nav-active{
     color: var(--color-white);
     padding: 1.6rem;
     cursor: pointer;
-}
-.skill-title h4{
+} */
+/* .skill-title h4{
     color: var(--color-white);
-}
-.skill-title .left{
+} */
+/* .skill-title .left{
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-.skill .skill-items.show-item{
+} */
+/* .skill .skill-items.show-item{
     display: block;
 }
 .skill-items{
@@ -363,7 +367,7 @@ nav .nav-container ul li a.nav-active{
 }
 .skill-items .item:hover{
     background: var(--color-white);
-}
+} */
 .progress-aria{
     display: flex;
     align-items: center;
@@ -372,56 +376,34 @@ nav .nav-container ul li a.nav-active{
 }
 .progress-bar{
     width: 100%;
-    height: 1rem;
+    height: 1.2rem;
     background: var(--color-primary-light);
 }
 .progress-bar .progress{
-    width: 90%;
+    width: 94%;
     height: 100%;
     background: var(--color-primary);
 }
 .skills-container .item:nth-child(2) .progress-bar .progress{
-    width:  80%;
+    width: 88%; /*CSS*/
 }
 .skills-container .item:nth-child(3) .progress-bar .progress{
-    width:  60%;
+    width: 70%; /*Javascript*/
 }
 .skills-container .item:nth-child(4) .progress-bar .progress{
-    width:  85%;
+    width: 40%; /*Bootstrap*/
 }
 .skills-container .item:nth-child(5) .progress-bar .progress{
-    width:  92%;
+    width: 50%; /*Node.js*/
 }
 .skills-container .item:nth-child(6) .progress-bar .progress{
-    width:  94%;
+    width: 45%; /*React*/
 }
-
-
-.skills-container .skill-items:nth-child(2) .item:nth-child(1) .progress-bar .progress{
-    width: 94%;
+.skills-container .item:nth-child(7) .progress-bar .progress{
+    width: 5%; /*React Native*/
 }
-.skills-container .skill-items:nth-child(2) .item:nth-child(2) .progress-bar .progress{
-    width: 88%;
-}
-.skills-container .skill-items:nth-child(2) .item:nth-child(3) .progress-bar .progress{
-    width: 60%;
-}
-.skills-container .skill-items:nth-child(2) .item:nth-child(4) .progress-bar .progress{
-    width: 98%;
-}
-.skills-container .skill-items:nth-child(2) .item:nth-child(5) .progress-bar .progress{
-    width: 95%;
-}
-.skills-container .skill-items:nth-child(2) .item:nth-child(6) .progress-bar .progress{
-    width: 92%;
-}
-
-
-.skills-container .skill-items:last-child .item:nth-child(1) .progress-bar .progress{
-    width: 94%;
-}
-.skills-container .skill-items:last-child .item:nth-child(2) .progress-bar .progress{
-    width: 70%;
+.skills-container .item:nth-child(8) .progress-bar .progress{
+    width: 50%; /*Adobe photoshop*/
 }
 /* ...END SKILLS SECTION... */
 
@@ -434,43 +416,48 @@ nav .nav-container ul li a.nav-active{
     display: grid;
     grid-template-columns: 41rem 41rem;
     padding-top: 2rem;
+    margin-top: 3rem;
     /* gap: 1rem; */
 }
 .about-container p{
     margin-bottom: 1rem;    
 }
-.experience-list ul li {
-    font-size: 20px;
-    font-style: bold !important;
-    padding-bottom: 1rem;
-}
 .exp-des{
     display: grid;
     grid-template-columns: 10% 90%;
 }
+.exp-des p{
+    color: var(--color-black);
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 1rem 0;
+}
+.exp-des ol{
+    padding: 1rem 0;
+}
+.exp-des ol li{
+    color: var(--color-black);
+    list-style-type: disc;
+    font-size: 18px;
+    line-height: 1.5;
+}
 .icon-exp{
     display: flex;
     justify-content: center;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
+    font-size: 30px;
 }
-.read-more{
-    display: none;
-}
-.title{
-    font-weight: 400;
-}
-.value{
+.place{
+    background-color: var(--color-primary);
     color: var(--color-black);
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem;
 }
-.show-more{
-    display: block;
-    margin: 1rem 0 2rem;
-    cursor: pointer;
-    color: var(--color-primary);
-}
-.show{
-    display: block;
+.time{
+    padding: 0.2rem 0.5rem;
+    font-style: italic;
 }
 /* ...END EXPERIENCE SECTION... */
 
